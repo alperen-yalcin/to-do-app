@@ -1,0 +1,38 @@
+.container-fluid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: blueviolet;
+}
+.wlcbutton {
+    cursor: grab;
+    border: none;
+    border-radius: 1000px;
+    color: aliceblue;
+    background-color: black;
+    transition-duration: 0.5s;
+    font-size: 50px;
+    padding: 20px; 
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+}
+.wlcbutton:hover {
+    background-color: aliceblue;
+    color: black;
+}
+.wlcbutton:active { 
+    background-color: gray;
+    transform: translateY(10px);
+}
+p {
+    padding-bottom: 200px;
+    font-size: 100px;
+}
+body{
+    margin:0;
+    padding:0;
+}
+
